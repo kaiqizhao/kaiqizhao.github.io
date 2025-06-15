@@ -1,0 +1,312 @@
+[
+    {
+        "type" : "publication",
+        "title": "Substructure-aware Log Anomaly Detection",
+        "authors": "Yanni Tang, Zhuoxing Zhang, Kaiqi Zhao, Lanting Fang, Zhenhua Li, Wu Chen",
+        "venue": "VLDB",
+        "year": "2025",
+        "role": "corresponding"
+    },    
+    {
+        "type" : "publication",
+        "title": "ACE: A Cardinality Estimator for Set-Valued Queries",
+        "authors": "Yufan Sheng, Xin Cao, Kaiqi Zhao, Yixiang Fang, Jianzhong Qi, Wenjie Zhang, Christian S. Jensen",
+        "venue": "VLDB",
+        "year": "2025"
+    },
+    {
+        "type" : "publication",
+        "title": "Self-supervised representation learning for geospatial objects: A survey",
+        "authors": "Yile Chen, Weiming Huang, Kaiqi Zhao, Yue Jiang, Gao Cong",
+        "venue": "Information Fusion",
+        "year": "2025"
+    },
+    {
+        "type" : "publication",
+        "title": "Periormer: Periodic Transformer for seasonal and irregularly sampled time series",
+        "authors": "Xiaobin Ren, Kaiqi Zhao, Katerina Taskova, Patricia Riddle, Lianyan Li",
+        "venue": "CIKM",
+        "year": "2024",
+        "role": "corresponding"
+    },
+    {
+        "type" : "publication",
+        "title": "SKGSum: Structured Knowledge-Guiding Document Summarization",
+        "authors": "Qiqi Wang, Ruofan Wang, Kaiqi Zhao, Robert Amor, Benjamin Liu, Jiamou Liu, Xianda Zheng, Zijian Huang",
+        "venue": "ACL (findings)",
+        "year": "2024",
+        "role": "corresponding"
+    },
+    {
+        "type" : "publication",
+        "title": "TP-GCN: Continuous Dynamic Graph Neural Network for Graph Classification",
+        "authors": "Jie Liu, Jiamou Liu, Kaiqi Zhao, Yanni Tang, Wu Chen",
+        "venue": "ICDE",
+        "year": "2024"
+    },
+    {
+        "type" : "publication",
+        "title": "A Graph-based Representation Framework for Trajectory Recovery via Spatiotemporal Interval-Informed Seq2Seq",
+        "authors": "Yaya Zhao, Kaiqi Zhao, Zhiqian Chen, Yuanyuan Zhang, Yalei Du, Xiaoling Lu",
+        "venue": "IJCAI",
+        "year": "2024"
+    },
+    {
+        "type" : "publication",
+        "title": "Exploring User Preferences on Geographical Factors for Personalized POI Search",
+        "authors": "Shang Liu, Gao Cong, Kaiqi Zhao",
+        "venue": "SIGSPATIAL",
+        "year": "2024"
+    },
+    {
+        "type" : "publication",
+        "title": "Contrastive Learning for Signed Bipartite Graphs",
+        "authors": "Zeyu Zhang, Jiamou Liu, Kaiqi Zhao, Song Yang, Xianda Zheng, Yifei Wang",
+        "venue": "SIGIR",
+        "year": "2023",
+        "role": "corresponding"
+    },
+    {
+        "type" : "publication",
+        "title": "DAMR: Dynamic Adjacency Matrix Representation Learning for Multivariate Time Series Imputation",
+        "authors": "Xiaobin Ren, Kaiqi Zhao, Patricia Riddle, Katerina Taskova, Qingyi Pan, Lianyan Li",
+        "venue": "SIGMOD",
+        "year": "2023",
+        "role": "corresponding"
+    },
+    {
+        "type" : "publication",
+        "title": "WISK: A Workload-aware Learned Index for Spatial Keyword Queries",
+        "authors": "Yufan Sheng, Xin Cao, Yixiang Fang, Kaiqi Zhao, Jianzhong Qi, Gao Cong, Wenjie Zhang",
+        "venue": "SIGMOD",
+        "year": "2023"
+    },
+    {
+        "type" : "publication",
+        "title": "RSGNN: A Model-agnostic Approach for Enhancing the Robustness of Signed Graph Neural Networks",
+        "authors": "Zeyu Zhang, Jiamou Liu, Xianda Zheng, Yifei Wang, Pengqian Han, Wang Yupan, Kaiqi Zhao, Zijian Zhang",
+        "venue": "The Web Conference (WWW)",
+        "year": "2023",
+        "role": "corresponding"
+    },
+    {
+        "type" : "publication",
+        "title": "USER: Unsupervised Structural Entropy-based Robust Graph Neural Network",
+        "authors": "Yifei Wang, Yupan Wang, Zeyu Zhang, Song Yang, Kaiqi Zhao, Jiamou Liu",
+        "venue": "AAAI",
+        "year": "2023"
+    },
+    {
+        "type" : "publication",
+        "title": "ROLE: Rotated Lorentzian Graph Embedding Model for Asymmetric Proximity",
+        "authors": "Shanshan Feng, Lisi Chen, Kaiqi Zhao, Wei Wei, Xuemeng Song, Shuo Shang, Panos Kalnis, Ling Shao",
+        "venue": "TKDE",
+        "year": "2022"
+    },
+    {
+        "type" : "publication",
+        "title": "H-Diffu: Hyperbolic Representations for Information Diffusion Prediction",
+        "authors": "Shanshan Feng, Kaiqi Zhao, Lanting Fang, Kaiyu Feng, Wei Wei, Xutao Li, Ling Shao",
+        "venue": "TKDE",
+        "year": "2022"
+    },
+    {
+        "type" : "publication",
+        "title": "D2GCLF: Document-to-Graph Classifier for Legal Document Classification",
+        "authors": "Qiqi Wang, Kaiqi Zhao, Robert Amor, Benjamin Liu, Ruofan Wang",
+        "venue": "NAACL (findings)",
+        "year": "2022",
+        "role": "corresponding"
+    },
+    {
+        "type" : "publication",
+        "title": "GETNext: Trajectory Flow Map Enhanced Transformer for Next POI Recommendation",
+        "authors": "Song Yang, Jiamou Liu, Kaiqi Zhao",
+        "venue": "SIGIR",
+        "year": "2022",
+        "role": "corresponding"
+    },
+    {
+        "type" : "publication",
+        "title": "Interconnected Neural Linear Contextual Bandits with UCB Exploration",
+        "authors": "Yang Chen, Miao Xie, Jiamou Liu, Kaiqi Zhao",
+        "venue": "PAKDD",
+        "year": "2022"
+    },
+    {
+        "type" : "publication",
+        "title": "A knowledge-enriched ensemble method for word embedding and multi-sense embedding",
+        "authors": "Lanting Fang, Yong Luo, Kaiyu Feng, Kaiqi Zhao, Aiqun Hu",
+        "venue": "TKDE",
+        "year": "2022"
+    },
+    {
+        "type" : "publication",
+        "title": "Space Meets Time: Local Spacetime Neural Network For Traffic Flow Forecasting",
+        "authors": "Song Yang, Jiamou Liu, Kaiqi Zhao",
+        "venue": "ICDM",
+        "year": "2021",
+        "role": "corresponding"
+    },
+    {
+        "type" : "publication",
+        "title": "Uniqueness Constraints on Property Graphs",
+        "authors": "Philipp Skavantzos, Kaiqi Zhao, Sebastian Link",
+        "venue": "CAiSE",
+        "year": "2021"
+    },
+    {
+        "type" : "publication",
+        "title": "Node2LV: Squared Lorentzian Representations for Node Proximity",
+        "authors": "Shanshan Feng, Lisi Chen, Kaiqi Zhao, Wei Wei, Fan Li, Shuo Shang",
+        "venue": "ICDE",
+        "year": "2021"
+    },
+    {
+        "type" : "publication",
+        "title": "PGeoTopic: A Distributed Solution for Mining Geographical Topic Models",
+        "authors": "Kaiqi Zhao, Gao Cong, Xiucheng Li",
+        "venue": "TKDE",
+        "year": "2020"
+    },
+    {
+        "type" : "publication",
+        "title": "Online Anomalous Trajectory Detection with Deep Generative Sequence Modeling",
+        "authors": "Yiding Liu, Kaiqi Zhao, Gao Cong, Zhifeng Bao",
+        "venue": "ICDE",
+        "year": "2020"
+    },
+    {
+        "type" : "publication",
+        "title": "EdgeRec: Recommender System on Edge in Mobile Taobao",
+        "authors": "Yu Gong, Ziwen Jiang, Yufei Feng, Binbin Hu, Kaiqi Zhao, Qingwen Liu, Wenwu Ou",
+        "venue": "CIKM",
+        "year": "2020"
+    },
+    {
+        "type" : "publication",
+        "title": "A Novel Model for Imbalanced Data Classification",
+        "authors": "Jian Yin, Chunjing Gan, Kaiqi Zhao, Xuan Lin, Zhe Quan, Zhi-Jie Wang",
+        "venue": "AAAI",
+        "year": "2020"
+    },
+    {
+        "type" : "publication",
+        "title": "Knowledge-Enhanced Ensemble Learning for Word Embeddings",
+        "authors": "Lanting Fang, Yong Luo, Kaiyu Feng, Kaiqi Zhao, Aiqun Hu",
+        "venue": "WWW",
+        "year": "2019"
+    },
+    {
+        "type" : "publication",
+        "title": "Exploring Market Competition over Topics in Spatio-Temporal Document Collections",
+        "authors": "Kaiqi Zhao, Gao Cong, Jin-Yao Chin, Rong Wen",
+        "venue": "VLDB Journal",
+        "year": "2019"
+    },
+    {
+        "type" : "publication",
+        "title": "Efficient Similar Region Search with Deep Metric Learning",
+        "authors": "Yiding Liu, Kaiqi Zhao, Gao Cong",
+        "venue": "SIGKDD",
+        "year": "2018"
+    },
+    {
+        "type" : "publication",
+        "title": "ANR: Aspect-based Neural Recommender",
+        "authors": "Jin-Yao Chin, Kaiqi Zhao, Shafiq Joty, Gao Cong",
+        "venue": "CIKM",
+        "year": "2018"
+    },
+    {
+        "type" : "publication",
+        "title": "Deep Representation Learning for Trajectory Similarity Computation",
+        "authors": "Xiucheng Li, Kaiqi Zhao, Gao Cong, Christian S. Jensen, Wei Wei",
+        "venue": "ICDE",
+        "year": "2018"
+    },
+    {
+        "type" : "publication",
+        "title": "Biclustering: An application of Dual Topic Models",
+        "authors": "Daniel Rugeles, Kaiqi Zhao, Gao Cong, Manoranjan Dash, Shonali Krishnaswamy",
+        "venue": "SDM",
+        "year": "2017"
+    },
+    {
+        "type" : "publication",
+        "title": "Annotating Points of Interest with Geo-tagged Tweets",
+        "authors": "Kaiqi Zhao, Gao Cong, Aixin Sun",
+        "venue": "CIKM",
+        "year": "2016"
+    },
+    {
+        "type" : "publication",
+        "title": "Towards Personalized Maps: Mining User Preferences from Geo-textual Data (Demo paper)",
+        "authors": "Kaiqi Zhao, Yiding Liu, Quan Yuan, Lisi Chen, Zhida Chen, Gao Cong",
+        "venue": "VLDB",
+        "year": "2016"
+    },
+    {
+        "type" : "publication",
+        "title": "A System for Region Search and Exploration (Demo paper)",
+        "authors": "Kaiyu Feng, Kaiqi Zhao, Yiding Liu, Gao Cong",
+        "venue": "VLDB",
+        "year": "2016"
+    },
+    {
+        "type" : "publication",
+        "title": "Topic Exploration in Spatio-Temporal Document Collections",
+        "authors": "Kaiqi Zhao, Lisi Chen, Gao Cong",
+        "venue": "SIGMOD",
+        "year": "2016"
+    },
+    {
+        "type" : "publication",
+        "title": "Querying and mining geo-textual data for exploration: Challenges and opportunities",
+        "authors": "Gao Cong, Kaiyu Feng, Kaiqi Zhao",
+        "venue": "ICDE Workshops",
+        "year": "2016"
+    },
+    {
+        "type" : "publication",
+        "title": "Representing Verbs as Argument Concepts",
+        "authors": "Yu Gong, Kaiqi Zhao, Kenny Q. Zhu",
+        "venue": "AAAI",
+        "year": "2016"
+    },
+    {
+        "type" : "publication",
+        "title": "Who, where, when and what: a nonparametric bayesian approach to context-aware recommendation and search for twitter users",
+        "authors": "Quan Yuan, Gao Cong, Kaiqi Zhao, Zongyang Ma, Aixin Sun",
+        "venue": "TOIS",
+        "year": "2015"
+    },
+    {
+        "type" : "publication",
+        "title": "SAR: A Sentiment-Aspect-Region Model for User Preference Analysis in Geo-tagged Reviews",
+        "authors": "Kaiqi Zhao, Gao Cong, Quan Yuan, Kenny Q. Zhu",
+        "venue": "ICDE",
+        "year": "2015"
+    },
+    {
+        "type" : "publication",
+        "title": "Clustering Image Search Results by Entity Disambiguation",
+        "authors": "Kaiqi Zhao, Zhiyuan Cai, Qingyu Sui, Enxun Wei, Kenny Q. Zhu",
+        "venue": "ECML/PKDD",
+        "year": "2014"
+    },
+    {
+        "type" : "publication",
+        "title": "Wikification via link co-occurrence",
+        "authors": "Zhiyuan Cai, Kaiqi Zhao, Kenny Q. Zhu, Haixun Wang",
+        "venue": "CIKM",
+        "year": "2013"
+    },
+    {
+        "type" : "publication",
+        "title": "CISC: Clustered Image Search by Conceptualization (Demo paper)",
+        "authors": "Kaiqi Zhao, Enxun Wei, Qingyu Sui, Kenny Q. Zhu, Eric Lo",
+        "venue": "EDBT",
+        "year": "2013"
+    }
+]

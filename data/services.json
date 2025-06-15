@@ -1,0 +1,24 @@
+[
+    {
+        "type": "service",
+        "title": "Associate Editor",
+        "organization": "Data Science and Engineering",
+        "period": "2024-now"
+    },
+    {
+        "type": "service",
+        "title": "Area Chair Senior PC",
+        "organization": "KDD, CIKM",
+        "period": "2024-now"
+    },
+    {
+        "type": "service",
+        "title": "Regular PC Member",
+        "organization": "SIGIR, KDD, ICDE, CIKM, AAAI, IJCAI, TKDE"
+    },
+    {
+        "type": "service",
+        "title": "Conference Organisation",
+        "organization": "Sponsorship chair of ICDM 2021, Publicity chair of ADC 2023, 2024"
+    }
+]

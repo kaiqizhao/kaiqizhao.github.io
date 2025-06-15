@@ -1,0 +1,71 @@
+[
+    {
+        "type": "student-group",
+        "title": "Current PhDs at UoA",
+        "students": [
+            {
+                "name": "Ziyi Jiang",
+                "year": "2022 – present",
+                "research": "Anomalous trajectory detection, trajectory generation"
+            },
+            {
+                "name": "Xuyang Sun",
+                "year": "2024 – present",
+                "research": "Multi-task learning for trajectory data"
+            },
+            {
+                "name": "Xianda Zheng",
+                "year": "2022 – present",
+                "research": "Graph learning, temporal knowledge graph reasoning"
+            },
+            {
+                "name": "Yanni Tang",
+                "year": "2023 – present",
+                "research": "Sub-graph representation learning for intelligent softwares"
+            },
+            {
+                "name": "Zijian Huang",
+                "year": "2023 – present",
+                "research": "Temporal knowledge graph reasoning"
+            },
+            {
+                "name": "Ruofan Wang",
+                "year": "2024 – present",
+                "research": "Multi-modal knowledge fusion, multi-modal reasoning"
+            },
+            {
+                "name": "Jian Cheng",
+                "year": "2024 – present",
+                "research": "Multi-modal reasoning"
+            }
+        ]
+    },
+    {
+        "type": "student-group",
+        "title": "Alumni",
+        "students": [
+            {
+                "name": "Xiaobin Ren",
+                "year": "Thesis submitted"
+            },
+            {
+                "name": "Philipp Skavantzos",
+                "degree": "PhD",
+                "year": "Graduated in 2024",
+                "employment": "Postdoc at UoA"
+            },
+            {
+                "name": "Qiqi Wang",
+                "degree": "PhD",
+                "year": "Graduated in 2024",
+                "employment": "Assistant Professor at Nankai University"
+            },
+            {
+                "name": "Song Yang",
+                "degree": "PhD",
+                "year": "Graduated in 2023",
+                "employment": "Meta"
+            }
+        ]
+    }
+]

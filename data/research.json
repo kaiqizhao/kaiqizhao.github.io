@@ -1,0 +1,22 @@
+{
+    "sections": [
+        {
+            "titlezh": "主要研究方向",
+            "titleen": "Research Interests",
+            "subsections": [
+                {
+                    "titleen": "Spatio-temporal data mining",
+                    "contenten": "I am interested in investigating spatio-temporal data representation learning, multimodal fusion, and time-series prediction techniques. We research on large-scale spatio-temporal models and explore the efficiency and reliability of generative spatio-temporal models.",
+                    "titlezh": "时空数据挖掘",
+                    "contentzh": "研究时空数据表示学习，多模态融合，时序预测技术。研究时空大模型，探索生成式时空模型的效率与可靠性。"
+                },
+                {
+                    "titleen": "Graph learning",
+                    "contenten": "We investigate substructure representation learning techniques for spatio-temporal and dynamic graphs, aiming to enhance the interpretability, robustness, and transferability of graph-based tasks through the discovery of invariant substructures.",
+                    "titlezh": "图学习算法",
+                    "contentzh": "研究时空图与动态图的子结构表示学习方法，通过挖掘不变子结构特征，提升图任务的可解释性、鲁棒性和跨任务迁移能力。"
+                }
+            ]
+        }
+    ]
+}

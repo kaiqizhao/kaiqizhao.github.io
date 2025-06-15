@@ -1,0 +1,33 @@
+[
+    {
+        "type": "course",
+        "name": "Algorithms for Massive Data",
+        "code": "COMPSCI753",
+        "corhort": "Postgraduate Course",
+        "year": "S2 2020-2022, 2024",
+        "university": "UoA"
+    },
+    {
+        "type": "course",
+        "name": "Data Mining and Machine Learning",
+        "code": "COMPSCI760",
+        "corhort": "Postgraduate Course",
+        "year": "S2 2019-2021",
+        "university": "UoA"
+    },
+    {
+        "type": "course",
+        "name": "Algorithms and Data Structures",
+        "code": "COMPSCI220",
+        "corhort": "Undergraduate Course",
+        "year": "S1 2021, 2024",
+        "university": "UoA-NEFU"
+    },{
+        "type": "course",
+        "name": "Machine Learning",
+        "code": "COMPSCI361",
+        "corhort": "Undergraduate Course",
+        "year": "S1 2022-2024",
+        "university": "UoA"
+    }
+]
