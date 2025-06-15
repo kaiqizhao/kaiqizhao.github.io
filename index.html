@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人学术主页</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Kaiqi's Homepage</div>
+            <ul class="nav-links">
+                <li><a href="#biography" data-en="Home" data-zh="首页">首页</a></li>
+                <li><a href="#research" data-en="Research" data-zh="研究方向">研究方向</a></li>
+                <li><a href="#publications" data-en="Publications" data-zh="论文发表">论文发表</a></li>
+                <li><a href="#team" data-en="Team" data-zh="研究团队">研究团队</a></li>
+                <li><a href="#teaching" data-en="Teaching" data-zh="课程教学">课程教学</a></li>
+                <li><a href="#services" data-en="Services" data-zh="学术服务">学术服务</a></li>
+                <li class="language-switch">
+                    <button id="lang-toggle">EN/中文</button>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="biography" class="section">
+            <div class="container biography-container">
+                <div class="profile-card">
+                    <div class="profile-photo-container">
+                        <img src="data/selfie.jpg" alt="Profile Photo" class="profile-photo">
+                    </div>
+
+                    <div class="profile-info">
+                        <h2 class="profile-name" data-en="Kaiqi Zhao" data-zh="赵凯祺">赵凯祺</h2>
+                        <p class="profile-title" data-en="Full Professor" data-zh="教授">教授</p>
+                        <p class="profile-department" data-en="School of Computer Science and Technology" data-zh="计算机科学与技术学院">计算机科学与技术学院</p>
+                        <p class="profile-university" data-en="Harbin Institute of Technology, Shenzhen" data-zh="哈尔滨工业大学（深圳）">哈尔滨工业大学（深圳）</p>
+                    </div>
+
+                    <div class="profile-contacts">
+                        <p><i class="fas fa-envelope"></i> <span data-en="Email: zhaokaiqi[at]hit[dot]edu[dot]cn" data-zh="邮箱: zhaokaiqi[at]hit[dot]edu[dot]cn">邮箱: zhaokaiqi[at]hit[dot]edu[dot]cn</span></p>
+                    </div>
+                    
+                    <div class="profile-social">
+                        <a href="https://scholar.google.com.sg/citations?user=LRb5M2AAAAAJ&hl=en" title="Google Scholar"><i class="fab fa-google"></i></a>
+                        <a href="https://www.researchgate.net/profile/Kaiqi_Zhao" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                        <a href="https://www.linkedin.com/in/kaiqi-zhao-75894a83/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="profile-bio">
+                    <h2 style="margin-top:0" data-en="Short bio" data-zh="个人简介">个人简介</h2>
+                    <p data-en="I am a Full Professor in the School of Computer Science and Technology at Harbin Institute of Technology (Shenzhen). Before this, I was a Senior Lecturer at the University of Auckland, New Zealand. I earned my Ph.D. in Computer Science from Nanyang Technological University, Singapore. My research focuses on spatio-temporal data mining, graph mining, and generative models, aiming to develop efficient and effective solutions for real-world applications in location-based services, transportation, and environmental science." 
+                       data-zh="现任哈尔滨工业大学（深圳）计算机科学与技术学院教授。此前曾任新西兰奥克兰大学高级讲师（终身教职）。我于新加坡南洋理工大学获得计算机科学博士学位，主要研究方向为时空数据挖掘、图数据挖掘与生成模型，致力于为基于位置的服务、交通规划与环境等领域开发高效实用的智能算法与系统。">
+                        现任哈尔滨工业大学（深圳）计算机科学与技术学院教授。此前曾任新西兰奥克兰大学高级讲师。我于新加坡南洋理工大学获得计算机科学博士学位，主要研究方向为时空数据挖掘、图数据挖掘与生成模型，致力于为基于位置的服务、交通规划与环境等领域开发高效实用的智能算法与系统。
+                    </p>
+                    
+                    <h2 data-en="Prospective Students" data-zh="招生信息">招生信息</h2>
+                    <p data-en="We are recruiting honest, self-motivated and hard-working Postdoc/PhD/Master/RA. We offer highly competitive stipend/salaries, dedicated GPU clusters and fully funded overseas visits for conferences and collaborations. If you are interested, please email me your CV." 
+                       data-zh="长期招收时空数据挖掘、图数据挖掘方向的硕士生、博士生、博士后，以及对科研感兴趣的本科生加入本课题组。本课题组经费充足，提供具有国际竞争力的优厚待遇，配备充足的高性能计算资源，并全额资助成员参加国际学术会议及海外知名院校访问交流。 感兴趣的同学请发送简历到我的邮箱!">
+                        长期招收时空数据挖掘、图数据挖掘方向的硕士生、博士生、博士后，以及对科研感兴趣的本科生加入本课题组。本课题组经费充足，提供具有国际竞争力的优厚待遇，配备充足的高性能计算资源，并全额资助成员参加国际学术会议及海外知名院校访问交流。 感兴趣的同学请发送简历到我的邮箱!
+                    </p>
+                    <strong data-en="Ph.D. Students" data-zh="博士招生计划">博士生招生计划</strong>: <span data-en="2-3 Students each year" data-zh="每年 2-3 名"></span>
+                    <ol>
+                        <li><span data-en="Direct PhD Admission through Recommendation: Application in Aug-Sep" data-zh="推免直博： 8-9月申请">推免直博： 8-9月申请</span>
+                        <br><span data-en="See: " data-zh="详情参考："></span><a href="
+                    http://cs.hitsz.edu.cn/info/1029/7452.htm">
+                    http://cs.hitsz.edu.cn/info/1029/7452.htm</a></li>
+                        <li><span data-en="Regular track: Application in August-September or March-April. " data-zh="申请-审核： 申请时间为8-9月或3-4月（补录）"></span>
+                        <br><span data-en="See: " data-zh="详情参考："></span><a href="
+                    https://yzb.hit.edu.cn/2024/0828/c8824a351716/page.htm">
+                    https://yzb.hit.edu.cn/2024/0828/c8824a351716/page.htm</a></li>
+                        <li><span data-en="Fast track: Application available each month. " data-zh="快响：每月均可申请"></span>
+                            <br><span data-en="See: " data-zh="详情参考："></span><a href="
+                        https://yzb.hit.edu.cn/2025/0525/c8824a370760/page.htm">
+                        https://yzb.hit.edu.cn/2025/0525/c8824a370760/page.htm</a></li>
+                    </ol>
+                    <br />
+                    <strong data-en="Master Students" data-zh="硕士招生计划">硕士招生计划</strong>: <span data-en="3-4 students each year" data-zh="每年 3-4 名"></span>
+                    <br />
+                    <strong data-en="Postdocs" data-zh="博士后招聘">博士后招聘</strong>: <span data-en="1-2 opening positions" data-zh="1-2 名"></span>
+                    <br />
+                    <span data-en="For requirements and packages, see: " data-zh="申请条件和待遇参考："></span><a href="
+                    http://hr.hitsz.edu.cn/info/1009/2203.htm">
+                    http://hr.hitsz.edu.cn/info/1009/2203.htm</a>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <section id="research" class="section">
+            <div class="container">
+                <h1 class="section-title" data-en="Research" data-zh="研究方向">研究方向</h1>
+                <div id="research-content" class="json-content"></div>
+            </div>
+        </section>
+
+
+        <section id="publications" class="section">
+            <div class="container">
+                <h1 class="section-title" data-en="Selected Publications" data-zh="代表性论文">代表性论文</h1>
+                <div id="publications-content" class="json-content"></div>
+            </div>
+        </section>
+
+
+        <section id="team" class="section">
+            <div class="container">
+                <h1 class="section-title" data-en="Team" data-zh="研究团队">研究团队</h1>
+                <div id="team-content" class="json-content"></div>
+            </div>
+        </section>
+
+
+        <section id="teaching" class="section">
+            <div class="container">
+                <h1 class="section-title" data-en="Teaching" data-zh="课程教学">课程教学</h1>
+                <div id="teaching-content" class="json-content"></div>
+            </div>
+        </section>
+
+
+        <section id="services" class="section">
+            <div class="container">
+                <h1 class="section-title" data-en="Professional Services" data-zh="学术服务">学术服务</h1>
+                <div id="services-content" class="json-content"></div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <p data-en="&copy; 2025 Kaiqi Zhao. All rights reserved." 
+               data-zh="&copy; 2025 赵凯祺 版权所有">&copy; 2025 赵凯祺 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

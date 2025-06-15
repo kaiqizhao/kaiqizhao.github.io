@@ -1,0 +1,539 @@
+/* 全局样式 */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --light-color: #ecf0f1;
+    --dark-color: #2c3e50;
+    --text-color: #333;
+    --text-light: #777;
+    --max-width: 1200px;
+    --nav-height: 50px;
+    --transition: all 0.3s ease;
+    --section-spacing: 25px; /* 缩小section间距 */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    padding-top: var(--nav-height);
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    margin-left: 25px;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: var(--section-spacing) 0; /* 使用变量控制间距 */
+    border-bottom: 1px solid #eee;
+}
+
+.section-title {
+    font-size: 2rem; /* 稍减小标题大小 */
+    margin-bottom: 30px; /* 减小标题下边距 */
+    color: var(--primary-color);
+    position: relative;
+    text-align: center;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px; /* 减小下划线长度 */
+    height: 3px; /* 减小下划线粗细 */
+    background-color: var(--secondary-color);
+    margin: 10px auto; /* 减小下划线间距 */
+}
+
+/* 导航栏样式 */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--nav-height);
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: var(--transition);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-logo {
+    font-size: 1.3rem; /* 减小logo大小 */
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px; /* 减小导航项间距 */
+}
+
+.nav-links li a {
+    font-weight: 500;
+    font-size: 0.95rem; /* 减小导航文字大小 */
+    color: var(--dark-color);
+    transition: var(--transition);
+    position: relative;
+}
+
+.nav-links li a:hover {
+    color: var(--secondary-color);
+}
+
+.nav-links li a::after {
+    content: '';
+    position: absolute;
+    bottom: -3px; /* 减小下划线距离 */
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--secondary-color);
+    transition: var(--transition);
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+.language-switch button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 4px 8px; /* 减小按钮内边距 */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 0.9rem; /* 减小按钮文字大小 */
+}
+
+.language-switch button:hover {
+    background-color: var(--primary-color);
+}
+
+.nav-toggle {
+    display: none;
+    font-size: 1.3rem; /* 减小菜单图标大小 */
+    cursor: pointer;
+}
+
+/* 个人简介部分 */
+#biography {
+    padding: var(--section-spacing) 0;
+}
+
+.biography-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px; /* 减小左右间距 */
+}
+
+.profile-card {
+    position: sticky;
+    top: calc(var(--nav-height) + 15px); /* 减小顶部间距 */
+    align-self: flex-start;
+    width: 300px; /* 减小卡片宽度 */
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08); /* 减小阴影强度 */
+    padding: 5px 25px; /* 减小内边距 */
+    height: fit-content;
+}
+
+.profile-info {
+    margin-bottom: 6px; /* 减小信息块间距 */
+}
+
+.profile-name {
+    font-size: 1.5rem; /* 减小名字大小 */
+    margin-bottom: 8px; /* 减小下边距 */
+    color: var(--primary-color);
+}
+
+.profile-title {
+    font-size: 1.1 rem; /* 减小职称大小 */
+    color: var(--secondary-color);
+    margin-bottom: 6px; /* 减小下边距 */
+}
+
+.profile-department,
+.profile-university {
+    font-size: 1rem; /* 减小部门/学校文字大小 */
+    margin-bottom: 8px; /* 减小下边距 */
+    color: var(--text-color);
+}
+
+.profile-photo-container {
+    margin: 15px 0; /* 减小照片容器边距 */
+    width: 100%;
+    max-height: 300px; /* 减小照片最大高度 */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 6px; /* 减小圆角半径 */
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* 减小阴影强度 */
+}
+
+.profile-contacts {
+    margin: 15px 0; /* 减小联系人信息边距 */
+}
+
+.profile-contacts p {
+    margin-bottom: 8px; /* 减小行间距 */
+    display: flex;
+    align-items: center;
+    font-size: 0.95rem; /* 减小文字大小 */
+}
+
+.profile-contacts i {
+    margin-right: 8px; /* 减小图标右边距 */
+    color: var(--secondary-color);
+    width: 18px; /* 减小图标宽度 */
+    text-align: center;
+    font-size: 0.95rem; /* 减小图标大小 */
+}
+
+.profile-social {
+    display: flex;
+    gap: 12px; /* 减小社交图标间距 */
+}
+
+.profile-social a {
+    font-size: 1.3rem; /* 减小社交图标大小 */
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.profile-social a:hover {
+    color: var(--secondary-color);
+}
+
+.profile-bio {
+    flex: 1;
+    background-color: white;
+    padding: 25px; /* 减小内边距 */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.profile-bio h2 {
+    font-size: 1.5rem; /* 减小标题大小 */
+    margin: 20px 0 12px; /* 减小标题边距 */
+    color: var(--primary-color);
+}
+
+.profile-bio p {
+    margin-bottom: 15px; /* 减小段落间距 */
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.research-interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; /* 减小兴趣标签间距 */
+    margin-bottom: 15px; /* 减小下边距 */
+}
+
+.research-interests li {
+    background-color: var(--light-color);
+    padding: 6px 12px; /* 减小标签内边距 */
+    border-radius: 15px; /* 减小圆角半径 */
+    font-size: 0.85rem; /* 减小标签文字大小 */
+    color: var(--primary-color);
+}
+
+/* JSON内容样式 */
+.json-content {
+    font-size: 1rem; /* 减小内容文字大小 */
+    line-height: 1.7;
+    background-color: white;
+    padding: 20px; /* 减小内边距 */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.json-content h2 {
+    font-size: 1.5rem; /* 减小标题大小 */
+    margin: 25px 0 12px; /* 减小标题边距 */
+    color: var(--primary-color);
+}
+
+.json-content h3 {
+    font-size: 1.3rem; /* 减小子标题大小 */
+    margin: 20px 0 10px; /* 减小子标题边距 */
+    color: var(--primary-color);
+}
+
+.json-content p {
+    margin-bottom: 12px; /* 减小段落间距 */
+}
+
+.json-content ul, 
+.json-content ol {
+    margin-left: 18px; /* 减小列表缩进 */
+    margin-bottom: 18px; /* 减小列表下边距 */
+}
+
+.json-content li {
+    margin-bottom: 6px; /* 减小列表项间距 */
+}
+
+.json-content a {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    font-size: 0.95rem; /* 减小链接文字大小 */
+}
+
+.json-content a:hover {
+    color: var(--accent-color);
+}
+
+.json-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0; /* 减小表格边距 */
+    font-size: 0.95rem; /* 减小表格文字大小 */
+}
+
+.json-content th, 
+.json-content td {
+    padding: 10px 12px; /* 减小单元格内边距 */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.json-content th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.json-content tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 25px 0; /* 减小页脚内边距 */
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 12px; /* 减小页脚文字下边距 */
+    font-size: 0.95rem; /* 减小页脚文字大小 */
+}
+
+.publication-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.publication-item:last-child {
+    border-bottom: none;
+}
+
+.publication-item h3 {
+    font-size: 1.2rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: var(--primary-color);
+}
+
+.publication-item h3 a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.publication-item h3 a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.publication-authors {
+    font-style: italic;
+    margin-bottom: 5px;
+    color: var(--text-light);
+}
+
+.publication-venue {
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--dark-color);
+}
+
+.publication-links {
+    margin-top: 5px;
+}
+
+.publication-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+.publication-links a:hover {
+    color: var(--accent-color);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* 减小社交图标间距 */
+}
+
+.social-links a {
+    font-size: 1.3rem; /* 减小社交图标大小 */
+    color: white;
+    transition: var(--transition);
+}
+
+.social-links a:hover {
+    color: var(--secondary-color);
+}
+
+/* 响应式设计 - 竖屏设备 */
+@media (max-width: 768px), (max-height: 600px) and (orientation: portrait) {
+    .biography-container {
+        flex-direction: column;
+        gap: 20px; /* 减小纵向间距 */
+    }
+    
+    .profile-card {
+        position: static;
+        width: 100%;
+        padding: 20px; /* 减小卡片内边距 */
+    }
+    
+    .profile-bio {
+        width: 100%;
+        padding: 20px; /* 减小简介内边距 */
+    }
+    
+    .profile-photo-container {
+        max-height: 250px; /* 进一步减小照片高度 */
+    }
+    
+    .profile-photo {
+        max-height: 250px;
+    }
+    
+    .section-title {
+        font-size: 1.8rem; /* 减小移动端标题大小 */
+        margin-bottom: 20px; /* 减小标题下边距 */
+    }
+}
+
+/* 响应式设计 - 小屏幕设备 */
+@media (max-width: 480px) {
+    .nav-links {
+        position: fixed;
+        top: var(--nav-height);
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - var(--nav-height));
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0; /* 减小菜单内边距 */
+        gap: 25px; /* 减小菜单项间距 */
+        transition: var(--transition);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav-links.active {
+        left: 0;
+    }
+    
+    .nav-toggle {
+        display: block;
+    }
+    
+    .section {
+        padding: 20px 0; /* 减小移动端section间距 */
+    }
+    
+    .profile-photo-container {
+        max-height: 220px; /* 手机端照片高度 */
+    }
+    
+    .profile-photo {
+        max-height: 220px;
+    }
+    
+    .json-content {
+        padding: 20px; /* 减小移动端内容内边距 */
+        font-size: 0.95rem; /* 减小移动端文字大小 */
+    }
+}
+
+/* 响应式设计 - 超小屏幕设备 */
+@media (max-width: 360px) {
+    .profile-name {
+        font-size: 1.6rem; /* 进一步减小名字大小 */
+    }
+    
+    .profile-title {
+        font-size: 1rem;
+    }
+    
+    .profile-photo-container {
+        max-height: 200px;
+    }
+    
+    .profile-photo {
+        max-height: 200px;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+}
